@@ -1,0 +1,254 @@
+        @import url('https://fonts.googleapis.com/css2?family=Martel+Sans:wght@200;300;400;600;700;800;900&display=swap');
+        @import url('https://fonts.googleapis.com/css2?family=Martel+Sans:wght@200;300;400;600;700;800;900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+        * {
+            margin: 0;
+            padding: 0;
+            font-family: sans-serif;
+            color: white;
+
+        }
+
+        body {
+            overflow-x: hidden;
+        }
+
+        .main {
+            background-image: url("image/new_bg.jpg");
+            height: 80vh;
+            width: 100vw;
+            position: relative;
+            background-position: center center;
+            background-repeat: no-repeat;
+            background-size: max(1500px, 100vw);
+        }
+
+        .main .frontbody {
+            height: 80vh;
+            width: 100%;
+            background-color: black;
+            opacity: .64;
+            position: absolute;
+            top: 0;
+        }
+
+        .netflix_logo {
+            height: 35px;
+            fill: rgb(214, 0, 0);
+        }
+
+        .navbar {
+            padding: 19px 10%;
+            justify-content: space-between;
+            display: flex;
+            align-items: center;
+            margin: auto;
+            position: relative;
+            z-index: 2;
+        }
+
+        .navbar button, .bottom_button {
+
+            padding: 5px 8px;
+            margin: 0px 3px;
+            border-radius: 4px;
+            color: white;
+            background-color: black;
+            opacity: .86;
+        }
+
+        .button1 {
+            display: inline-flex;
+            align-items: center;
+        }
+
+        .button1 span {
+            padding: 0px 2px;
+        }
+
+        .midtext {
+            height: 100%;
+            width: 100%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+            position: absolute;
+            top: 0px;
+        }
+
+        .midtext .h1 {
+            font-family: "Martel Sans", sans-serif;
+            padding: 5px 5%;
+            color: rgb(255, 255, 255);
+            font-size: 2rem;
+            font-weight: 800;
+            line-height: normal;
+            text-align: center;
+        }
+
+        .h2,
+        .h3 {
+            padding: 3px 12%;
+            line-height: 27px;
+            font-size: 16px;
+            font-weight: 200px;
+            text-align: center;
+        }
+
+        .input_size {
+            margin: 12px;
+            scale: 1.2;
+            display: flex;
+            align-items: center;
+            gap: 5px;
+        }
+
+        .input {
+            background-color: rgba(0, 0, 0, 0.722);
+            border-radius: 3px;
+            padding: 12px 48px 12px 14px;
+            font-size: x-small;
+        }
+
+        .input_label {
+            background-color: rgba(190, 0, 0, 0.912);
+            border-radius: 3px;
+            padding: 9px 18px;
+        }
+
+        .input_label:hover {
+            background-color: rgba(119, 0, 0, 0.912);
+        }
+
+        .separation {
+            width: 100vw;
+            height: 8px;
+            background-color: rgb(42, 42, 42);
+            position: absolute;
+            bottom: 0px;
+            left: 0;
+        }
+
+        .first {
+            height: 80vh;
+            width: 100%;
+            background-color: rgb(0, 0, 0);
+            position: relative;
+        }
+
+        .midsection {
+            height: 100%; 
+            display: flex;
+            align-items:center;
+            justify-content: center;
+            margin: auto;
+            padding: 0px 10vw;
+            flex-wrap: wrap;
+        }
+
+        .left1 {
+            width: 40vw;
+            height: 100%;
+            position: relative;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            text-align: center;
+        }
+
+        .right1 {
+            width: 36vw;
+            height: 100%;
+
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .right1 img {
+            width: 100%;
+            height: 100%;
+            object-fit: contain;
+            position: absolute;
+            display: flex;
+            z-index: 2;
+        }
+
+        .right1 video {
+            height: 59%;
+            width: 79%;
+            display: flex;
+            position: relative;
+            right: 1px;
+            bottom: 3px;
+        }
+
+        .left1 h1 {
+            font-family: "Martel Sans", sans-serif;
+            font-weight: 1100;
+            font-style: normal;
+            font-size: 28px;
+        }
+        .left1 h3{
+            font-weight: 200;
+            font-size:18px;
+        }
+
+        .ques{
+            margin: 10px 2px;
+            padding: 12px 21px;
+            background-color: rgb(31, 31, 31);
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            transition: all 0.1s ease-out;
+        }
+        .bottom_mid{
+            padding: 62px 24px;
+        }
+        .secondlast{
+            height: auto;
+        }
+        .plussize{
+            font-size: 28px;
+            font-weight: 100;
+        }
+        .bottommail{
+            margin-top: 32px;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+        }
+        .qsecondlast{
+            padding: 28px 28px;
+            height: auto;
+            
+        }
+        .qbottom{
+            display: flex;
+            flex-direction: row;
+        }
+        .qleft{
+            width: 40vw;
+        }
+        .qright{
+            width: 80vw;
+        }
+        .q div, .text{
+            padding: 9px 0px;
+            color: rgb(172, 172, 172);
+        }
+        .q div a{
+            font-size: 12px;
+        }
+        .last{
+            width: auto;
+            padding: 28px;
+            height: auto;
+        }
+        .ques:hover{
+            background-color: rgb(43, 43, 43);
+        }
