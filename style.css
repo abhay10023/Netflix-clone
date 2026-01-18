@@ -144,7 +144,6 @@
             justify-content: center;
             margin: auto;
             padding: 0px 10vw;
-            flex-wrap: wrap;
         }
 
         .left1 {
@@ -163,6 +162,7 @@
             height: 100%;
 
             display: flex;
+            position: relative;
             justify-content: center;
             align-items: center;
         }
@@ -251,4 +251,18 @@
         }
         .ques:hover{
             background-color: rgb(43, 43, 43);
+        }
+
+        @media (max-width : 700px) {
+            .midsection{
+                flex-direction: column;
+            }
+            .left1{
+                width:100vw;
+                height: 45%;
+            }
+            .right1{
+                width: 100vw;
+                height:43%; 
+            }
         }
